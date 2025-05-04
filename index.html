@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <title>BMP Dictionary</title>
+  <script src="app.js" defer></script>
+  <style>
+    body { font-family: sans-serif; padding: 2rem; background: #f5f5f5; }
+    input { padding: 10px; width: 100%; max-width: 400px; margin-bottom: 1rem; }
+    table { width: 100%; border-collapse: collapse; background: white; }
+    th, td { border: 1px solid #ccc; padding: 10px; }
+    th { background: #3498db; color: white; }
+  </style>
+</head>
+<body>
+  <h1>Bishnupriya Manipuri Dictionary</h1>
+  <input type="text" id="searchBox" placeholder="Search...">
+  <table>
+    <thead>
+      <tr>
+        <th>Word (BMP)</th>
+        <th>Meaning (English)</th>
+        <th>Example</th>
+      </tr>
+    </thead>
+    <tbody id="dictionaryBody"></tbody>
+  </table>
+</body>
+</html>
